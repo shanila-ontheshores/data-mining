@@ -5,7 +5,7 @@ This folder contains the cleaned notebook and documentation for **Data Mining As
 - **4A:** Restaurant sales analysis using transaction preprocessing, Apriori frequent itemset mining, and a package-discount revenue simulation.
 - **4B:** Numeric data analysis using interactive 2D/3D visualization, centering, projection onto a line and a plane, covariance analysis, eigen decomposition, and PCA-style projection.
 
-The notebook was cleaned and reorganized for GitHub so the work reads like a portfolio project instead of a loose coursework file.
+
 
 ---
 
