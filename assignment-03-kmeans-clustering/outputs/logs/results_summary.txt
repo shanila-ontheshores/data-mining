@@ -1,0 +1,59 @@
+Cell 13 output:
+
+Counting misclustered points...
+Cluster 0: total=484, dominant class=0 (384), misclustered=100
+Cluster 1: total=284, dominant class=1 (168), misclustered=116
+
+Total misclustered points: 216 / 768
+Approx. clustering accuracy (majority-class rule): 71.88%
+
+Duration: 0.25 seconds
+
+
+Cell 30 output:
+
+Computing analytical / quantitative validation metrics...
+Davies–Bouldin Index (lower is better): 2.8399
+Dunn Index (higher is better, approx.): 0.344381
+Purity (0–1, higher better): 0.5911
+Rand Index (0–1, higher better): 0.8797
+
+
+Cell 33 output:
+Total rows in train.tsv after cleaning: (11108, 2)
+Label distribution:
+ label
+kolkata          4596
+state            2182
+national         1404
+sports           1255
+entertainment    1157
+international     514
+Name: count, dtype: int64
+
+Selected subset shape: (1200, 2)
+Subset label distribution:
+ label
+entertainment    200
+state            200
+sports           200
+national         200
+kolkata          200
+international    200
+Name: count, dtype: int64
+
+
+Cell 39 output:
+TF shape: (1200, 8075)
+IDF shape: (8075,)
+TF-IDF shape: (1200, 8075)
+
+
+Cell 45 output:
+
+Computing analytical / quantitative validation metrics (3C)...
+Davies–Bouldin Index (lower better): 2.1077
+Dunn Index (higher better, approx.): 0.209303
+Purity (0–1, higher better): 0.1742
+Rand Index (0–1, higher better): 0.1826
+
