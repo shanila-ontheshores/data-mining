@@ -1,0 +1,67 @@
+Assignment 04 Results Summary
+
+Part 4A: Restaurant Sales and Apriori
+-------------------------------------
+Dataset records: 6,307 orders
+Dish columns: 116
+Price columns: 116
+Original total sales: 5,111,310.00
+
+Apriori configuration:
+- Minimum support: 0.001
+- Absolute minimum count: 7
+- Frequent 1-itemsets: 105
+- Frequent 2-itemsets: 592
+- Frequent 3-itemsets: 304
+- Frequent 4-itemsets: 11
+
+Most popular four-item package:
+- BBQ Chicken Pizza
+- Mountain Dew
+- Pepsi
+- Water 500ml
+
+Package support: 0.0019026478515934676 (0.190%)
+Orders containing full package: 12
+
+Revenue simulation:
+- Original package revenue: 15,745.00
+- New package revenue after 5% discount and 5% package sales increase: 15,705.64
+- Package-only revenue change: -39.36
+- Uplift from associated items: 391.25
+- New total sales: 5,111,661.89
+- Revenue change: 351.89
+- Percent change: +0.007%
+Conclusion: The discount strategy increased total sales slightly.
+
+Part 4B: Numeric Data Analysis, Projection, and PCA
+---------------------------------------------------
+Dataset used: Diabetes dataset from KaggleHub (mathchi/diabetes-data-set)
+Raw shape: 768 rows x 9 columns
+Cleaned shape: 392 rows x 9 columns
+Label column: Outcome
+Classes: 0 and 1
+
+First two dimensions:
+- Mean before centering: [3.30102041, 122.62755102]
+- Mean after centering: approximately [0, 0]
+
+First three dimensions:
+- Mean before centering: [3.30102041, 122.62755102, 70.66326531]
+- Mean after centering: approximately [0, 0, 0]
+
+Covariance matrix:
+[[ 10.28693773,  19.60191066,   8.54013953],
+ [ 19.60191066, 949.95822053,  80.78784881],
+ [  8.54013953,  80.78784881, 155.75395668]]
+
+Eigenvalues in descending order:
+[958.52991598, 147.92836195, 9.54083702]
+
+Top-two eigenvector matrix U:
+[[-0.02146635,  0.04723806],
+ [-0.99472233, -0.10125304],
+ [-0.10033285,  0.99373859]]
+
+Projected data shape: 392 x 3
+New U-basis coordinate matrix shape: 392 x 2
